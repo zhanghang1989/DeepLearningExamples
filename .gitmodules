@@ -1,4 +1,3 @@
-[submodule "PyTorch/SpeechRecognition/Jasper/external/triton-inference-server"]
-    path = PyTorch/SpeechRecognition/Jasper/external/triton-inference-server   
-    url = https://github.com/NVIDIA/triton-inference-server.git
-    branch = r19.12
+[submodule "submodules/dllogger"]
+	path = submodules/dllogger
+	url = ssh://git@gitlab-master.nvidia.com:12051/dl/JoC/dllogger.git
