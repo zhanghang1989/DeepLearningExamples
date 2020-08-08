@@ -58,8 +58,9 @@ def get_extensions():
                 '-gencode', 'arch=compute_60,code=sm_60',
                 '-gencode', 'arch=compute_61,code=sm_61',
                 '-gencode', 'arch=compute_70,code=sm_70',
-                '-gencode', 'arch=compute_75,code=sm_75',
-                '-gencode', 'arch=compute_75,code=compute_75',]
+                #'-gencode', 'arch=compute_75,code=sm_75',
+                #'-gencode', 'arch=compute_75,code=compute_75',
+                ]
 
     extra_compile_flags['nvcc'] += gencodes
 
